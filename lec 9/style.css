@@ -1,0 +1,15 @@
+#pencard{
+    background-color: aqua;
+}
+#adharcard{
+    background-color: yellow;
+}
+#password{
+    background-color: pink;
+}
+#clgid{
+    background-color: lightgreen;
+}
+.pencard{
+    background-color: rgb(132, 0, 248);
+}
