@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravins calc</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Header -->
+        <header class="header">
+            <span class="material-symbols-rounded icon">settings</span>
+            <h1 class="title">stuff by <span>pravin</span></h1>
+            <span class="material-symbols-rounded icon" style="transform: scaleX(-1);">history</span>
+        </header>
+
+        <!-- Display Area -->
+        <div class="display">
+            <input type="text" class="current-result" placeholder="0" >
+        </div>
+
+        <!-- Keypad Grid -->
+        <div class="keypad">
+            <button class="key key-clear">C</button>
+            <button class="key key-op">
+                <span class="material-symbols-rounded" style="font-size: 20px; font-weight: 600;">backspace</span>
+            </button>
+            <button class="key key-op">%</button>
+            <button class="key key-op">&divide;</button>
+
+            <button class="key">7</button>
+            <button class="key">8</button>
+            <button class="key">9</button>
+            <button class="key key-op" style="font-size: 32px; font-weight: 300;">&times;</button>
+
+            <button class="key">4</button>
+            <button class="key">5</button>
+            <button class="key">6</button>
+            <button class="key key-op" style="font-size: 32px; font-weight: 300;">&minus;</button>
+
+            <button class="key">1</button>
+            <button class="key">2</button>
+            <button class="key">3</button>
+            <button class="key key-op" style="font-size: 32px; font-weight: 300;">&plus;</button>
+
+            <button class="key">0</button>
+            <button class="key">.</button>
+            <button class="key key-equals">=</button>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <div class="nav-item active">
+                <span class="material-symbols-rounded" style="font-size: 22px;">calculate</span>
+            </div>
+            <div class="nav-item">
+                <span class="material-symbols-rounded" style="font-size: 26px;">science</span>
+            </div>
+            <div class="nav-item">
+                <span class="material-symbols-rounded" style="font-size: 22px;">history</span>
+            </div>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
